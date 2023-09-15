@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="125.033" height="46.46" viewBox="0 0 125.033 46.46">
+  <g id="Oneload_logo" data-name="Oneload logo" transform="translate(-203.16 -389.697)">
+    <path id="Path_1" data-name="Path 1" d="M492.055,449.057l-52.069-3.309a6.011,6.011,0,0,1-5.872-6.147l.537-23.421a6.012,6.012,0,0,1,5.613-5.861l63.825-4.22a6.011,6.011,0,0,1,5.8,8.624l-8.862,30.226C499.517,449.56,494.407,449.111,492.055,449.057Z" transform="translate(-182.313 -12.936)" fill="#91288c"/>
+    <path id="Path_2" data-name="Path 2" d="M203.16,419.441v-23.6s1.049-5.244,5.943-6.118h54.948s8.508-.933,5.01,8.39l-5.238,18.666a10.583,10.583,0,0,1-5.41,6.615,21.815,21.815,0,0,1-10.33,2.036H209.278S204.08,424.685,203.16,419.441Z" fill="#fbb516"/>
+    <text id="one" transform="translate(217.099 414.173)" fill="#fff" font-size="26" font-family="Aldo-SemiBold, Aldo" font-weight="600"><tspan x="0" y="0">one</tspan></text>
+    <text id="load" transform="translate(276.084 423.159)" fill="#fff" font-size="22" font-family="Aldo-SemiBold, Aldo" font-weight="600"><tspan x="0" y="0">load</tspan></text>
+  </g>
+</svg>

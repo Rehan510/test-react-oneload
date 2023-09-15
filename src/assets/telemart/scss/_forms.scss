@@ -1,0 +1,71 @@
+@import "./variables";
+
+$inputSize: 36px;
+.col-example {
+  text-align: left;
+  font: normal normal normal 20px/24px Montserrat;
+  letter-spacing: 0px;
+  color: #2c2c2c;
+}
+.form-group {
+  position: relative;
+  &.icon-right {
+    .input-icon {
+      position: absolute;
+      right: 0;
+      top: 5px;
+      width: $inputSize;
+      height: $inputSize;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  .form-control {
+    border: 0;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 0px 2px 8px #00000022;
+    border-radius: 4px;
+    height: 46px;
+    text-align: left;
+    font: normal normal normal 18px/22px Helvetica Neue;
+    letter-spacing: 0px;
+    color: #2c2c2c;
+  }
+  &.input-search {
+    min-width: 300px;
+    width: 100%;
+  }
+}
+
+.custom-drop {
+  display: flex;
+  justify-content: flex-end;
+  align-items: baseline;
+  .ant-dropdown-trigger {
+    box-shadow: 0px 2px 8px #00000022;
+    min-width: 250px;
+    width: 100%;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 0.5rem;
+    border-radius: 4px;
+    .ant-space-item {
+      height: $inputSize;
+      display: flex;
+      align-items: center;
+      text-align: right;
+      font: normal normal normal 18px/22px Helvetica Neue;
+      letter-spacing: 0px;
+      color: #2c2c2c !important;
+    }
+  }
+  p {
+    margin-right: 1rem;
+    font: normal normal normal 20px/24px Montserrat;
+    letter-spacing: 0px;
+    color: #2c2c2c;
+  }
+}

@@ -1,0 +1,119 @@
+@import "./variables";
+.cate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .category-button {
+    background: #f8f8f8 0% 0% no-repeat padding-box;
+    width: 245px;
+    height: 60px;
+    border: 1px solid #c7c7c7;
+    font-family: $fontPrimary;
+    font-size: 18px;
+    letter-spacing: 0px;
+    color: #302f2f;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #c7c7c7;
+    border-radius: 6px;
+  }
+  .menu-items a {
+    background: #fbfbfb 0% 0% no-repeat padding-box;
+  }
+  .dropdown {
+    padding: 0.5rem 0 0 !important;
+  }
+
+  .dropdown-submenu {
+    width: 245px;
+  }
+  ul {
+    padding-left: 0;
+  }
+  .sub-category {
+    background: #fbfbfb 0% 0% no-repeat padding-box;
+    width: 245px;
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    font-size: 19px;
+    letter-spacing: 0px;
+    color: #646464;
+    border-bottom: 1px solid #b65b5b;
+    .category-name {
+      font-size: 19px;
+      letter-spacing: 0px;
+      color: #646464;
+    }
+  }
+  .menu-items {
+    width: 245px;
+    height: 60px;
+
+    .product {
+      background: #fbfbfb 0% 0% no-repeat padding-box;
+
+      color: #646464;
+    }
+  }
+}
+.catego-btn {
+  display: flex;
+  position: relative;
+  height: 45px;
+  /* background-color: aquamarine; */
+  width: 270px;
+  background: #f8f8f8 0% 0% no-repeat padding-box;
+  border: 1px solid #c7c7c7;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  .btnArrow {
+    position: absolute;
+    right: 8px;
+    top: 19px;
+  }
+}
+.cat-open {
+  height: 100vh;
+  overflow: hidden;
+}
+.ant-dropdown {
+  .ant-dropdown-menu {
+    right: 2.3rem;
+    top: 0.5rem;
+    .ant-dropdown-menu-submenu-title{
+      display: flex;
+      .ant-dropdown-menu-submenu-expand-icon{
+        position:relative !important;
+        inset-inline-end: 0px !important;
+        margin-top: -3px;
+        inset-inline-start: 15px;
+      }
+    }
+  }
+}
+.ant-dropdown-menu-submenu{
+
+  .ant-dropdown-menu{
+
+    .ant-dropdown-menu-submenu-title
+    {
+  display: flex;
+      .ant-dropdown-menu-submenu-expand-icon{
+        position: relative !important;
+        inset-inline-end: 0px !important;
+        margin-top: -3px;
+        inset-inline-start: 15px;
+      }
+    } 
+  } 
+} 
+
+
+.ant-dropdown-menu {
+  max-height: calc(100vh - 100px);
+  overflow: auto;
+}
+
+

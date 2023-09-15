@@ -1,0 +1,165 @@
+@import './variables';
+
+.app-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: transparent;
+  padding: 0 1rem;
+  background: #f9f9f9 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 20px #00000029;
+  color: white;
+  position: sticky;
+  padding: 0.5rem 1rem;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+  @media screen and (max-width: 786px) {
+    position: relative;
+  }
+  .firstRow {
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+  }
+  .secondRow {
+    display: flex;
+    justify-content: flex-end;
+    max-width: 100%;
+    margin-top: 0.5rem;
+  }
+
+  .SearchInput {
+    width: 100%;
+    max-width: 550px;
+    min-width: 200px;
+    margin: 0 1rem;
+    position: relative;
+    .searchicon {
+      position: absolute;
+      top: 13px;
+      left: 11px;
+      width: 17px;
+      height: 20px;
+    }
+    .form-control {
+      max-width: 434px;
+      height: 45px;
+      border: 1px solid #c7c7c7;
+      border-radius: 6px;
+      background: #f8f8f8 0% 0% no-repeat padding-box;
+      font-family: 'Helvetica Neue';
+      font-size: 17px;
+      letter-spacing: 0px;
+      color: #686868;
+      opacity: 1;
+      width: 100%;
+      padding: 0 33px 0 43px;
+    }
+    .anticon {
+      position: absolute;
+      color: black !important;
+      top: 1rem;
+      right: 12px;
+      cursor: pointer;
+    }
+  }
+
+  .myorder-button {
+    width: 170px;
+    height: 45px;
+    background: #f1f1f1 0% 0% no-repeat padding-box !important;
+    border-radius: 6px;
+    border: none;
+    margin-right: 1rem;
+    font-family: 'Helvetica Neue';
+    font-size: 19px;
+    letter-spacing: 0px;
+    color: #6e6a6a;
+    opacity: 1;
+  }
+  // .btn-primary {
+  //   background-color: #f1f1f1 !important;
+  // }
+  .myorder-button:active {
+    color: #6e6a6a !important;
+  }
+  .ca-button {
+    position: relative;
+  }
+  .cart-button {
+    background: #f1f1f1 0% 0% no-repeat padding-box !important;
+    border: none;
+    border-radius: 6px;
+    letter-spacing: 0px;
+    color: #6e6a6a;
+    width: 146px;
+    height: 45px;
+    font-family: $fontPrimary;
+    font-size: 20px;
+    padding-right: 4rem;
+  }
+  .cart-icon {
+    position: absolute;
+    width: 24px;
+    height: 25px;
+    left: 88px;
+    top: 9px;
+  }
+  .cart-button:active {
+    color: #6e6a6a !important;
+  }
+  .main div:nth-of-type(1) {
+    flex-grow: 1;
+    margin-left: 1rem;
+  }
+  .cart-count {
+    border-radius: 18px;
+    position: absolute;
+    background-color: red;
+    left: 110px;
+    font-family: 'Helvetica Neue';
+    font-size: 19px;
+    letter-spacing: 0px;
+    color: #fbfbfb;
+    top: 0px;
+    width: 26px;
+    height: 26px;
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 650px) {
+  .firstRow {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.5rem;
+    .catego-btn {
+      margin-bottom: 0.3rem;
+    }
+    .SearchInput {
+      .form-control {
+        font-size: 14px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 650px) {
+  .secondRow {
+    display: flex;
+    margin-top: 0.5rem;
+    .myorder-button {
+      width: 118px;
+      margin-right: 0.5rem;
+      margin-bottom: 0.5rem;
+    }
+  }
+}
+@media screen and (max-width: 650px) {
+  .app-header {
+    display: flex;
+    flex-direction: column;
+  }
+}

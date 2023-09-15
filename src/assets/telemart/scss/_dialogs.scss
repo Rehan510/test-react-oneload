@@ -1,0 +1,110 @@
+@import "./variables";
+
+.modal-content {
+  font-family: Helvetica;
+  width: 30rem;
+
+  &.border-none {
+    .modal-header {
+      border: none !important;
+    }
+  }
+  .modal-header {
+    padding: 1.5rem 1.5rem 0;
+
+    .modal-title {
+      width: 100%;
+      text-align: center;
+      font-weight: bold;
+    }
+  }
+  .modal-footer {
+    .close-button {
+      padding: 10px 30px;
+    }
+  }
+}
+
+// balance dialog scss
+.balance-heading {
+  display: flex;
+  justify-content: center;
+  margin-bottom: -38px;
+}
+.balance-confirm-button {
+  background: #84202e 0% 0% no-repeat padding-box;
+  border-radius: 2px;
+  opacity: 1;
+  width: 96px;
+  height: 37px;
+  border: none;
+  color: white;
+}
+.balance-cancel-button {
+  background: #686868 0% 0% no-repeat padding-box;
+  border-radius: 2px;
+  opacity: 1;
+  width: 96px;
+  height: 37px;
+  border: none;
+  color: white;
+}
+.btn-close {
+  background-color: #0000005c;
+  border-radius: 2px;
+  color: white;
+}
+.btn-close:hover {
+  background-color: #0000005c;
+}
+.accept-modal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -1rem;
+}
+.kyc-close {
+  width: 132px;
+  height: 54px;
+  font-size: 14px;
+  background: #c0c0c0 0% 0% no-repeat padding-box;
+  border-radius: 2px;
+  border: none;
+  color: #7e182b;
+}
+.kyc-setting {
+  width: 132px;
+  height: 54px;
+  font-size: 14px;
+  background: #84202e 0% 0% no-repeat padding-box;
+  border-radius: 2px;
+  border: none;
+  color: #ffffff;
+}
+.buyer-dialouge-customer-button {
+  max-width: 104px;
+  width: 100%;
+  background: #fe9f01 0% 0% no-repeat padding-box;
+  border-radius: 2px;
+  border: none;
+  font: normal normal medium 16px/19px Helvetica Neue;
+  letter-spacing: 0px;
+  color: #7e182b;
+  opacity: 1;
+  font-weight: bold;
+  height: 39px;
+}
+.buyer-dialouge-self-button {
+  max-width: 104px;
+  width: 100%;
+  background: #c0c0c0 0% 0% no-repeat padding-box;
+  border-radius: 2px;
+  border: none;
+  font: normal normal medium 16px/19px Helvetica Neue;
+  letter-spacing: 0px;
+  color: #7e182b;
+  opacity: 1;
+  font-weight: bold;
+  height: 39px;
+}

@@ -1,0 +1,40 @@
+@import './variables';
+
+.sidebar {
+  background: #eee;
+  min-width: $siderSize;
+  padding-top: $headerSize;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  display: inline;
+  overflow-x: scroll;
+  .nav-item {
+    padding: 0.85rem 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+    border-bottom: 2px solid white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    line-height: 1rem;
+    .nav-icon {
+      font-size: 1.15rem;
+      width: 20px;
+      height: 20px;
+      max-width: 20px;
+      margin-right: 0.5rem;
+    }
+    &.active {
+      background: $themePrimaryColor;
+      color: white;
+    }
+    &:hover {
+      background: rgba($themePrimaryColor, 0.5);
+    }
+  }
+}
